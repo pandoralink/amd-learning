@@ -1,6 +1,6 @@
 define(function (require) {
-  const drawDOM = require("draw-dom");
-  const utils = require("./utils");
+  var drawDOM = require("draw-dom");
+  var utils = require("./utils");
 
   drawDOM.draw("app", utils.translate("red"));
 });

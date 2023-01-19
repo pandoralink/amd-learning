@@ -1,7 +1,7 @@
 define(function () {
   return {
     translate: function (name) {
-      let color = "";
+      var color = "";
       switch (name) {
         case "red":
           color = "#FF0000";
